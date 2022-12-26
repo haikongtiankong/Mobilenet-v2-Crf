@@ -6,7 +6,7 @@ Openslide and Histolab are required as the tool to preprocess the original medic
 They can be found in Install file (coz directly using pip command to install Openslide on Linux system can work but on Windows may fail)
 ## Pre-processing
 ### Mask generation
-run Mask_gen.py to generate binary mask of annotated tumor or normal area of original digital slide. 
-Need the original difital slides in tif formatt and annoted coordinates stored in txt file.
-An example slide and coordinate file are given in example file.
+run Mask_gen.py to generate binary mask of annotated tumor or normal area of original digital slide.  
+Need the original difital slides in tif formatt and annoted coordinates stored in txt file.  
+An example slide and coordinate file are given in example file.  
 ### 
