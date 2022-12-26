@@ -4,3 +4,4 @@ Medical images like H&E (Hematoxylin & eosin) stained Histopathological sections
 ## Install
 Openslide and Histolab are required as the tool to preprocess the original medical images.
 They can be found in Install file (coz directly using pip command to install Openslide on Linux system can work but on Windows may fail)
+### Pre-processing
