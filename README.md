@@ -10,7 +10,8 @@ They can be found in Install file (coz directly using pip command to install Ope
 ### Mask generation
 run Mask_gen.py to generate binary mask of annotated tumor or normal area of original digital slide.  
 Need the original digital slides in tif formatt and annoted coordinates stored in txt file.  
-An example slide and coordinate file are given in example file.  
+An example coordinate file in txt are given in example file.  
+The original digital slide can take between several hundreds of Mbs to more than 1 or 2 Gb in size, can refer to Camelyon 17 chanllenges for these slides.
 
 ![Generating Mask](https://github.com/haikongtiankong/Mobilenet-v2-Crf/blob/main/fig/maskgen.png)  
 ### Patch generation
