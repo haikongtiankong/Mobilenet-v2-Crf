@@ -9,5 +9,5 @@ They can be found in Install file (coz directly using pip command to install Ope
 run Mask_gen.py to generate binary mask of annotated tumor or normal area of original digital slide.  
 Need the original digital slides in tif formatt and annoted coordinates stored in txt file.  
 An example slide and coordinate file are given in example file.  
-![Generating Mask](C:\Users\86138\Pictures\Saved Pictures\maskgen.png)
+![Generating Mask]([C:\Users\86138\Pictures\Saved Pictures\maskgen.png](https://github.com/haikongtiankong/Mobilenet-v2-Crf/blob/main/fig/maskgen.png))
 ### 
