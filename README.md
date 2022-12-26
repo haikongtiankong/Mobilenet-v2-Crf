@@ -16,4 +16,20 @@ run Patch_gen.py to generate the small patches that can be fed into a CNN for tr
 The original digital slide and the generated mask are needed.
 
 ![Patch generation](https://github.com/haikongtiankong/Mobilenet-v2-Crf/blob/main/fig/patchgen.png)  
+### Coordinates generation
+run coord_list_gen.py to rename the patches extracted and also acquire a txt file of all patches central coordinates.
 
+### Json file of coordinates
+Note that the original txt file that stores coordinates of annotation areas need to be transformed in xml file of a specific format.  
+use xml2json.py to transform these xml file in json format.  
+An example of xml and json file are given in example file, the format is in line with the json file in Camelyon 17 chanllenges.  
+These json file will be used to generate labels of each patch before they are sent to the CNN model.
+
+## Training and post-processing
+run train.py to train the model after data pre-processing.  
+
+### Probability maps
+run prob_map.py to generate the heatmaps of tested slides, the result is store in npy file.  
+run prob_map_show.py to convert npy to tif so that can see the heatmap visually.  
+
+![heatmap](https://github.com/haikongtiankong/Mobilenet-v2-Crf/blob/main/fig/Prob.png)  
